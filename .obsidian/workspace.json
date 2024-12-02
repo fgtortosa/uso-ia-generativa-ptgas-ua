@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "ddbce2d8a5e780a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "b959bdc32b751ef9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47f48f713cc5441b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Presentacion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Presentacion"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1adc7ea1caab90b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f1c2ffc17492161",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "abe7e7461521d03c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "841ada8652ccb6ce",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "54d92c36d31a69e7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 454.5
+  },
+  "right": {
+    "id": "cca0c1398a937bd6",
+    "type": "split",
+    "children": [
+      {
+        "id": "eed722f6cdd24258",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e805415419aba53c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "respuestas/Respuesta de Perplexity.ai.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Respuesta de Perplexity.ai"
+            }
+          },
+          {
+            "id": "73e4f33ae679b950",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Seminario La región y la ciudad - articulación de escalas en la ordenación del territorio.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Seminario La región y la ciudad - articulación de escalas en la ordenación del territorio"
+            }
+          },
+          {
+            "id": "979dad68d3ea900a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "21f55db2bf1d9842",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Seminario La región y la ciudad - articulación de escalas en la ordenación del territorio.md"
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Seminario La región y la ciudad - articulación de escalas en la ordenación del territorio"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "47f48f713cc5441b",
+  "lastOpenFiles": [
+    "Presentacion.pdf",
+    "slides.css",
+    "prompt-inicial.md",
+    "Presentacion.md",
+    "respuestas/Respuesta de Perplexity.ai.md",
+    "paginas-web-utilizadas.md",
+    "Uso de la inteligencia artificial generativa por el colectivo PTGAS.md",
+    "Prompt inicial.md",
+    "Paginas web utilizadas.md",
+    "imagenes/la-region-y-la-ciudad-seminario-ot-2024.jpg",
+    "respuestas",
+    "respuestas/Respuesta Gemini.md",
+    "respuestas/Respuesta de ChatGpt.md",
+    "respuestas/Respuesta Claude.ai.md",
+    "Texto completo de la imagen.md",
+    "‎localhost:3000:Uso%Presentacion.pdf",
+    "imagenes",
+    "imagenes/imagen-ciudad.jpg",
+    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
+    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff",
+    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff",
+    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff",
+    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff",
+    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff",
+    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/chalkboard/img/whiteboard.png",
+    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/chalkboard/img/sponge.png",
+    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/chalkboard/img/chalk-yellow.png",
+    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/chalkboard/img/chalk-white.png",
+    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/chalkboard/img/chalk-red.png",
+    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/chalkboard/img/chalk-purple.png",
+    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/chalkboard/img/chalk-orange.png",
+    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/chalkboard/img/chalk-green.png",
+    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/menu/README.md",
+    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/menu/CONTRIBUTING.md",
+    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/customcontrols/README.md",
+    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/chart/README.md",
+    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/chalkboard/README.md",
+    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/dist/css/theme/README.md",
+    "Bienvenido.md"
+  ]
+}
