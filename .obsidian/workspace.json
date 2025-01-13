@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "e56a48953d05127a",
+        "id": "36c7fdb29888b57c",
         "type": "tabs",
         "children": [
           {
-            "id": "73eb472ef73663d7",
+            "id": "769b19b3eb70d22a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "prompt-inicial.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "prompt-inicial"
-            }
-          },
-          {
-            "id": "6f3b7e861fff3eb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "videos/Uso del ChatGPT para realizar la página web del resumen del evento.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Uso del ChatGPT para realizar la página web del resumen del evento"
+              "title": "Nueva pestaña"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5,
-    "collapsed": true
+    "width": 297.5
   },
   "right": {
     "id": "cca0c1398a937bd6",
@@ -178,8 +158,17 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "6f3b7e861fff3eb5",
+  "active": "769b19b3eb70d22a",
   "lastOpenFiles": [
+    "videos/claude-respuestas.md",
+    "videos/chatgtp-respuestas copy.md",
+    "videos/claude-indicaciones.md",
+    "videos/chatgpt-indicaciones copy.md",
+    "videos/chatgpt.md",
+    "videos/chatgpt-indicaciones.md",
+    "videos/respuestas.md",
+    "videos/chatgtp-respuestas.md",
+    "diapositivas/herramientas/Herramientas.md",
     "prompt-inicial.md",
     "videos/Uso del ChatGPT para realizar la página web del resumen del evento.md",
     "videos",
@@ -216,12 +205,6 @@
     "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
     "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff",
     "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff",
-    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/menu/README.md",
-    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/menu/CONTRIBUTING.md",
-    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/customcontrols/README.md",
-    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/chart/README.md",
-    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/chalkboard/README.md",
-    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/dist/css/theme/README.md",
-    "Bienvenido.md"
+    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/menu/README.md"
   ]
 }
