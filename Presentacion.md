@@ -1,8 +1,10 @@
 ---
-title: "Uso de la inteligencia artificial generativa para el PTGAS de la Universidad de Alicante"
-author: "Paco García Tortosa. Servicio de Informática"
+title: Uso de la inteligencia artificial generativa para el PTGAS de la Universidad de Alicante
+author: Paco García Tortosa. Servicio de Informática
 date: 2024-12-02
 marp: true
+tags:
+  - CharlaIA
 ---
 
 ## Consideraciones iniciales
