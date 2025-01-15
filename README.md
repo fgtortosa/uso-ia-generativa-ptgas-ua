@@ -22,7 +22,7 @@
 - Documento con las plazas de movilidad Erasmus
 
 ## Presentación
-- [Generar contenido](./diapositivas/presentacion/generar-contenido.md)
-- [Contestar preguntas](./diapositivas/presentacion/contestar-preguntas.md)
+- [Generar contenido](./diapositivas/presentacion/generar-contenido.pdf)
+- [Contestar preguntas](./diapositivas/presentacion/contestar-preguntas.pdf)
 
 
