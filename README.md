@@ -6,18 +6,18 @@
 
 ## Herramientas 
 - Chat
-  - ChatGPT
-  - Claude.ai
-  - Mistral
-  - Gemini
-  - Perplexity
-  - Bing (Imágenes)
+  - [ChatGPT](https://chatgpt.com)
+  - [Claude.ai](https://claude.ai)
+  - [Mistral](https://chat.mistral.ai)
+  - [Gemini](https://gemini.google.com/?hl=es-ES)
+  - [Perplexity](https://www.perplexity.ai)
+  - [Bing](https://www.bing.com/images/create) (Imágenes)
 
 - Consulta de informacion
   - NotebookML
  
 ## Materiales usados en la charla
-- Cartel del evento de Geografía
-- Cartel del seminario
+- [Cartel del evento de Geografía](https://dagrygf.ua.es/de/documentos/2024-seminario-ot-la-region-y-la-ciudad/la-region-y-la-ciudad-seminario-ot-2024.jpg)
+- [Cartel del seminario de Geopolítica](https://web.ua.es/es/estudios-geopolitica/documentos/programa-iii-geopolitica-2024.pdf)
 - Documento con las plazas de movilidad Erasmus
 
