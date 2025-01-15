@@ -5,7 +5,7 @@
 2. *Consulta de informacion*. A partir de una serie de documentos con los que alimentaremos al modelo podremos utilizar una herramienta de IA para pedir informacion. Este ejemplo pretende principalmente explicar como podemos utilizar la IA para suministrar informacion detallada y personalizada a los usuarios (principalmente a los alumnos)
 
 ## Herramientas 
-: Chat
+- Chat
   - ChatGPT
   - Claude.ai
   - Mistral
@@ -13,5 +13,5 @@
   - Perplexity
   - Bing (Imágenes)
 
-: Consulta de informacion
+- Consulta de informacion
   - NotebookML
