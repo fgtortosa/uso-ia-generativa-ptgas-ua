@@ -160,7 +160,7 @@ Creación de una imagen a partir de indicaciones
 
 ---
 
-Microsoft Bing: https://www.bing.com/images/create [creación de imágenes, basado el Dall-E]
+Microsoft Bing: https://www.bing.com/images/create 
 
 1. Registrarnos o loguearnos en Microsoft Bing: [https://www.bing.com/images/create]([https://www.bing.com/images/create])
 2. Necesitamos un usuario de microsoft
