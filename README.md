@@ -14,7 +14,7 @@
   - [Bing](https://www.bing.com/images/create) (Imágenes)
 
 - Consulta de informacion
-  - NotebookML
+  - [NotebookML](ttps://notebooklm.google.com/)
  
 ## Materiales usados en la charla
 - [Cartel del evento de Geografía](https://dagrygf.ua.es/de/documentos/2024-seminario-ot-la-region-y-la-ciudad/la-region-y-la-ciudad-seminario-ot-2024.jpg)
@@ -22,7 +22,7 @@
 - Documento con las plazas de movilidad Erasmus
 
 ## Presentación
-- [Generar contenido](./diapositivas/presentacion/generar-contenido.pdf)
-- [Contestar preguntas](./diapositivas/presentacion/contestar-preguntas.pdf)
+- [Generar contenido](./diapositivas/presentacion/generar-contenido.md)
+- [Contestar preguntas](./diapositivas/presentacion/contestar-preguntas.md)
 
 
