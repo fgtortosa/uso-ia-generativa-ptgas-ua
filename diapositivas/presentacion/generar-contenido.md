@@ -1,5 +1,5 @@
 ---
-title: Uso de la inteligencia artificial generativa para el PTGAS de la Universidad de Alicante
+title: Uso de la inteligencia artificial generativa para el PTGAS de la Universidad de Alicante - Generar contenido
 author: Paco García Tortosa. Servicio de Informática
 date: 2024-12-02
 marp: true
@@ -103,7 +103,7 @@ Creación de una página web con la noticia de un evento que va a tener lugar en
 ----
 
 1. Registrarnos o loguearnos en chatgpt: [https://chatgpt.com]([https://chatgpt.com])
-2. Descargar el documento de: [https://web.ua.es/es/estudios-geopolitica/paginas/seminarios/iii-seminario-2024.html](https://web.ua.es/es/estudios-geopolitica/paginas/seminarios/iii-seminario-2024.html)
+2. Descargar el documento de: [https://web.ua.es/es/estudios-geopolitica/documentos/programa-iii-geopolitica-2024.pdf](https://web.ua.es/es/estudios-geopolitica/documentos/programa-iii-geopolitica-2024.pdf)
 3. Subir el documento en pdf a la herramienta (utilizando el icono del clip)
 
 ---

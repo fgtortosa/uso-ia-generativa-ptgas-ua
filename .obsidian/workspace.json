@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diapositivas/presentacion/presentacion.md",
+                "file": "diapositivas/presentacion/generar-contenido.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "presentacion"
+              "title": "generar-contenido"
             }
           }
         ]
@@ -164,9 +164,13 @@
   },
   "active": "769b19b3eb70d22a",
   "lastOpenFiles": [
+    "documentos/Anexo-plazas-erasmusç.pdf",
     "diapositivas/presentacion/imagen-bing.jpg",
-    "diapositivas/presentacion/presentacion.pdf",
+    "diapositivas/presentacion/contestar-preguntas.md",
+    "diapositivas/presentacion/generar-contenido.md",
     "diapositivas/presentacion/presentacion.md",
+    "diapositivas/presentacion/chat.md",
+    "diapositivas/presentacion/presentacion.pdf",
     "diapositivas/presentacion/pendiente.md",
     "diapositivas/presentacion/presentacion copy.md",
     "diapositivas/presentacion/indicaciones.md",
@@ -197,15 +201,11 @@
     "videos/Uso del ChatGPT para realizar la página web del resumen del evento.md",
     "videos",
     "Presentacion.md",
-    "Registro de usuarios para poder utilizar las aplicaciones.md",
-    "paginas-web-utilizadas.md",
-    "respuestas/Respuesta Gemini.md",
     "export/Registro de usuarios para poder utilizar las aplicaciones.pdf",
     "imagenes/gemini-chat-prompt.jpg",
     "imagenes/bing-interfaz.jpg",
     "imagenes/bing-login.jpg",
     "Presentacion.pdf",
-    "imagenes/gemini-chat.jpg",
     "slides.css",
     "respuestas",
     "‎localhost:3000:Uso%Presentacion.pdf",
