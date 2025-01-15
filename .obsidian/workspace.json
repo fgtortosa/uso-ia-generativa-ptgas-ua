@@ -11,10 +11,14 @@
             "id": "769b19b3eb70d22a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "diapositivas/presentacion/presentacion.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "presentacion"
             }
           }
         ]
@@ -160,6 +164,26 @@
   },
   "active": "769b19b3eb70d22a",
   "lastOpenFiles": [
+    "diapositivas/presentacion/imagen-bing.jpg",
+    "diapositivas/presentacion/presentacion.pdf",
+    "diapositivas/presentacion/presentacion.md",
+    "diapositivas/presentacion/pendiente.md",
+    "diapositivas/presentacion/presentacion copy.md",
+    "diapositivas/presentacion/indicaciones.md",
+    "imagenes/leticia-martin-cobo.jpg",
+    "imagenes/ignacio-torrijos.png",
+    "imagenes",
+    "diapositivas/presentacion/chatgpt-indicaciones.md",
+    "diapositivas/presentacion/imagen-ciudad.jpg",
+    "herramientas/chatgpt-indicaciones.md",
+    "documentos/programa-iii-geopolitica-2024.pdf",
+    "documentos/parte-uno.jpg",
+    "documentos/parte-dos.jpg",
+    "documentos/la-region-y-la-ciudad-seminario-ot-2024.jpg",
+    "herramientas/mistral-respuestas.md",
+    "herramientas/claude-respuestas.md",
+    "herramientas/claude-indicaciones.md",
+    "herramientas/chatgtp-respuestas.md",
     "videos/claude-respuestas.md",
     "videos/chatgtp-respuestas copy.md",
     "videos/claude-indicaciones.md",
@@ -176,35 +200,15 @@
     "Registro de usuarios para poder utilizar las aplicaciones.md",
     "paginas-web-utilizadas.md",
     "respuestas/Respuesta Gemini.md",
-    "respuestas/Respuesta de ChatGpt.md",
-    "respuestas/Respuesta Claude.ai.md",
     "export/Registro de usuarios para poder utilizar las aplicaciones.pdf",
     "imagenes/gemini-chat-prompt.jpg",
     "imagenes/bing-interfaz.jpg",
     "imagenes/bing-login.jpg",
     "Presentacion.pdf",
     "imagenes/gemini-chat.jpg",
-    "imagenes/gemini-login.jpg",
-    "lista-universidades.md",
-    "2025-01-10.md",
-    "().md",
-    "imagenes/claude-login.jpg",
-    "imagenes/chatgpt-chat.jpg",
-    "imagenes/chatgpt-login.jpg",
-    "imagenes/claude-chat.jpg",
     "slides.css",
-    "respuestas/Respuesta de Perplexity.ai.md",
-    "Uso de la inteligencia artificial generativa por el colectivo PTGAS.md",
-    "Prompt inicial.md",
-    "Paginas web utilizadas.md",
-    "imagenes/la-region-y-la-ciudad-seminario-ot-2024.jpg",
     "respuestas",
-    "Texto completo de la imagen.md",
     "‎localhost:3000:Uso%Presentacion.pdf",
-    "imagenes",
-    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
-    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff",
-    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff",
-    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/menu/README.md"
+    "export/Uso de la inteligencia artificial generativa por el colectivo PTGAS/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff"
   ]
 }

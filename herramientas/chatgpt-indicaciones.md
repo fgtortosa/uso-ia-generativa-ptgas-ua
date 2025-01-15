@@ -19,7 +19,7 @@ marp: true
 
 Acercamiento inicial al problema, estamos usando el modelo sin indicaciones
 
-Prompt: *Transcribe el texto del documento adjunto*
+Prompt: *Transcribe el contenido del documento*
 
 ---
 

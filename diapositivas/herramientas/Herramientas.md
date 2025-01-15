@@ -11,7 +11,8 @@ marp: false
 
 1. Claude de Anthropic: https://claude.ai [modelo estático, mejor para programación]
 2. ChatGPT de OpenAI: https://chatgpt.com/ [busqueda web, creación de imágenes]
-3. Perplexity: https://perplexity-ai [busqueda web]
+3. Mistral de Mistral.ai: https://chat.mistral.ai [busqueda web]
+3. Perplexity: https://perplexity.ai [busqueda web]
 3. Gemini de Google: https://gemini.google.com/?hl=es-ES [busqueda web, creación de imágenes]
 4. Microsoft Bing: https://www.bing.com/images/create [creación de imágenes, basado el Dall-E]
 

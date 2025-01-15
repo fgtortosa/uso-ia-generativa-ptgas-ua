@@ -11,7 +11,7 @@ marp: true
 
 ---
 
-1. Registrarnos o loguearnos en chatgpt: [https://chatgpt.com]([https://chatgpt.com])
+1. Registrarnos o loguearnos en Mistral AI: [https://chat.mistral.ai/chat]([https://chat.mistral.ai/chat])
 2. Descargar el documento de: [https://web.ua.es/es/estudios-geopolitica/paginas/seminarios/iii-seminario-2024.html](https://web.ua.es/es/estudios-geopolitica/paginas/seminarios/iii-seminario-2024.html)
 3. Subir el documento en pdf
 
@@ -19,7 +19,7 @@ marp: true
 
 Acercamiento inicial al problema, estamos usando el modelo sin indicaciones
 
-Prompt: *Transcribe el texto del documento adjunto*
+Prompt: *Transcribe el contenido del documento*
 
 ---
 

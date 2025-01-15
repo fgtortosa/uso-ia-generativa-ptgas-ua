@@ -100,70 +100,19 @@ Creación de una página web con la noticia de un evento que va a tener lugar en
 4. Cada modelo puede dar una respuesta distinta
 5. Cada vez que se le pregunta al modelo también puede dar una respuesta distinta (*esta inteligencia artificial es generativa*)
 
-----
-
-1. Registrarnos o loguearnos en chatgpt: [https://chatgpt.com]([https://chatgpt.com])
-2. Descargar el documento de: [https://web.ua.es/es/estudios-geopolitica/paginas/seminarios/iii-seminario-2024.html](https://web.ua.es/es/estudios-geopolitica/paginas/seminarios/iii-seminario-2024.html)
-3. Subir el documento en pdf a la herramienta (utilizando el icono del clip)
-
 ---
+### Pregunta (prompt)
 
-Acercamiento inicial al problema, estamos usando el modelo sin indicaciones
+Tengo que preparar una pagina web con una charla, sobre la que tengo una imagen. ¿Podrías hablarme de la temática de la charla en función de los datos de la imagen?. 
+Estructura los datos para que los pueda utilizar en una pagina web que usaré para notificar el evento, con el organizador, las fechas y su temática en una pagina web.
 
-Prompt: *Transcribe el contenido del documento*
-
----
-
-Queremos **recuperar solo una parte de la información**. Utilizamos las indicaciones para ello
-
-Prompt: *Necesitamos la siguiente información del documento para realizar un resumen: tipo de evento, nombre, lugar donde se realizarán las charlas del evento, organización, coordinación y programa, incluyendo si es posible el nombre de la ponencia, la fecha y hora, y el nombre del ponente*
-
----
-
-Queremos **realizar un resumen del evento** que incorporaremos en la propia página web
-
-Prompt: *Por favor, realiza un resumen de un párrafo del evento, indicando los temas de los que trata, a modo de resumen de la página*
-
----
-
-Vamos a **convertir toda la información anterior en html** para poder insertarla en nuestra página de vuala
-
-Prompt: *Ahora, utilizando la información anterior que me has generado crea un documento html  (incluye la información estructurada del evento y el resumen del mismo que has elaborado anteriormente). Deseamos crear una pagina web con el evento, pero no que nos escriba una pagina completa en html, sino solo el interior de ella, con párrafos, y con estilos básicos, como negrita, cursiva etc.*
-
----
-
-Vamos a utilizar la **herramienta de búsqueda** de ChatGPT para buscar información de los ponentes
-
-Prompt: *Por favor, busca la información de los ponentes para añadir a la pagina web*
+La imagen se encuentra en: https://dagrygf.ua.es/de/documentos/2024-seminario-ot-la-region-y-la-ciudad/la-region-y-la-ciudad-seminario-ot-2024.jpg
 
 ----
 
-Revisamos la información y le pedimos que la transforme a html para incorporarla en la página web
+### Ejemplo práctico
 
-Prompt: *Convierte esta información en html e incorporala en el contenido anterior de la pagina html en un apartado final llamado ponentes*
-
------
-
-Ponemos intentar **obtener alguna imagen de los ponentes**, vamos a buscarla
-
-Prompt: *Existe alguna imagen pública de los ponentes para incorporarla a la página web?*
-
-----
-
-Esta operativa es idéntica tanto para chatgpt, como para mistral y gemini, que poseen acceso a internet
-
----
-
-## Ejemplo práctico 
-
-Creación de una imagen a partir de indicaciones
-
----
-
-Microsoft Bing: https://www.bing.com/images/create [creación de imágenes, basado el Dall-E]
-
-1. Registrarnos o loguearnos en Microsoft Bing: [https://www.bing.com/images/create]([https://www.bing.com/images/create])
-2. Necesitamos un usuario de microsoft
+Creación de la imagen que vamos a utilizar en la página web del evento
 
 ---
 
@@ -175,11 +124,11 @@ Necesito una imagen para una página web. Esta imagen debe de ser de una ciudad 
 
 #### Pregunta (prompt)
 
-Afino: Necesito una imagen que debe corresponder a una ciudad mediterránea, con una avenida con palmeras, el mar al lado y la parte trasera una pequeña montaña. La imagen por favor en blanco y negro y la ciudad de los años 60 del siglo pasado. La ciudad a la izquierda con los edificios monumentales, a la derecha la playa y al fondo a la izquierda, también junto a la playa, la pequeña montaña con una fortificación de tipo castillo (mediterráneo). La imagen en formato fotográfico, del tipo polaroit, con los bordes un poco blanquecinos por el paso del tipo, de tipo postal. En formato alargado para usar en una web
+Afino: Necesito una imagen para una página web. Esta imagen debe de ser de una ciudad mediterránea, con una avenida con palmeras, el mar al lado y la parte trasera una pequeña montaña. La imagen por favor en blanco y negro y la ciudad de los años 60 del siglo pasado. Por favor, pon la ciudad a la izquierda con los edificios monumentales, a la derecha la playa y al fondo a la izquierda, también junto a la playa la pequeña montaña con una fortificación de tipo castillo (mediterráneo)
 
 ---
 
-![Ciudad mediterránea](imagen-bing.jpg)
+![Ciudad mediterránea](imagen-ciudad.jpg "San Juan Mountains")
 
 ---
 
@@ -238,4 +187,3 @@ Ignacio Díez Torrijos, también conocido como Nacho Díez Torrijos, es un desta
 - Generación de guiones para atención de consultas
 - Creación de FAQ personalizadas
 - Apoyo en la redacción de respuestas a solicitudes
-
