@@ -15,3 +15,9 @@
 
 - Consulta de informacion
   - NotebookML
+ 
+## Materiales usados en la charla
+- Cartel del evento de Geografía
+- Cartel del seminario
+- Documento con las plazas de movilidad Erasmus
+
