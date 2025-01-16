@@ -7,106 +7,82 @@ tags:
   - CharlaIA
 ---
 
-## Consideraciones iniciales
+## Contexto
 
-- La IA generativa es buena generando contenidos, pero no tan buena contestando a preguntas
-- Problemas:
-    - Se inventa respuestas (alucina)
-    - Siempre da la razón (miente si se lo pides)
+- La IA generativa destaca en la generación de contenidos, pero presenta limitaciones en la respuesta a preguntas
+- Limitaciones principales:
+    - Tendencia a generar información ficticia (alucinaciones)
+    - Sesgo de confirmación (tendencia a dar la razón)
+
+---
+## Solución propuesta
+
+- Chats personalizados basados en información verificada y previamente suministrada
+- Herramientas disponibles: ChatGPT (versión de pago) y Google NotebookML
+
+---
+## Google NotebookML
+
+### Características generales
+- Acceso mediante cuenta gcloud o Gmail: [https://notebooklm.google.com/](https://notebooklm.google.com/)
+- Integración de múltiples fuentes: documentos propios, páginas web, vídeos
+- Servicio gratuito (a diferencia de ChatGPT)
+- Sistema de perfiles de usuario (editor, lector)
+- Organización por cuadernos temáticos
+
+---
+### Funcionalidades principales
+- Generación de resúmenes:
+  - Extracción de información clave de cualquier documento
+  - Creación de resúmenes personalizados según necesidades específicas
+- Gestión de contenidos:
+  - Generación de preguntas frecuentes con respuestas concisas
+  - Creación de cronologías
+  - Generación de resúmenes en formato audio
+
+---
+### Beneficios para la gestión administrativa
+- Optimización del tiempo: Automatización de tareas repetitivas
+- Mejora de la eficiencia: Análisis y organización ágil de información
+- Facilitación del trabajo colaborativo: Compartición de notebooks con diferentes roles
+
+---
+## Aplicación en el PTGAS
+
+### Áreas de implementación
+- Elaboración de guías administrativas para estudiantes
+- Gestión documental eficiente
+- Mejora de la atención al estudiante mediante FAQs automatizadas
+
+---
+### Caso práctico: Convocatoria Erasmus
+- Implementación de chat para consultas sobre:
+  - Gestiones para realizar la solicitud
+  - Plazas disponibles
+  - Requisitos
+- Funcionalidades adicionales:
+  - Cronologías de hitos importantes
+  - Resúmenes en audio
+  - Soporte multilingüe
+
+---
+### Fuentes de información
+- Página web de movilidad: https://sri.ua.es/es/movilidad/erasmus-ka131/2025-26/primer-plazo-de-solicitud.html
+- Documentación oficial:
+  - Bases: https://www.boua.ua.es/es/acuerdo/54461
+  - Listado de plazas: https://www.boua.ua.es/Acuerdos/DescargarAnexoxId?idanexo=1050865&idacuerdo=54623&idioma=es
+  - Baremo: https://www.boua.ua.es/Acuerdos/DescargarAnexoxId?idanexo=1042431&idacuerdo=54461&idioma=es
+
+---
+## Tareas a realizar
+1. Incorporación de fuentes documentales
+2. Desarrollo de cronología
+3. Elaboración de FAQs
 
 ---
 
-## Solución
-
-- Chats personalizados que utilizan únicamente la información que les hemos suministrado anteriormente
-- Ejemplos: ChatGPT (de pago) y Notebook ML
-
----
-
-### NotebookMl de Google
-
-- Puede incorporar información desde distintos lugares: documentos propios, paginas web, videos, etc
-- No es necesaria subscripción de pago para utilizar
-- Como perfiles de usuario (editor, solo consultas)
-- Se puede usar con una cuenta *gcloud*. Para acceder: [https://notebooklm.google.com/](https://notebooklm.google.com/)
-- Permite crear cuadernos personalizados
-
----
-
-#### Caracteristicas
-
-- Resume documentos: 
-  Extrae la información clave de cualquier texto, ya sea un artículo científico, un informe o un correo electrónico.
-- Crea resúmenes personalizados: 
-  Genera resúmenes adaptados a tus necesidades específicas, como un resumen ejecutivo o un resumen para estudiantes.
-- Crear preguntas frecuentes: 
-  Identifica las preguntas más comunes sobre un tema y proporciona respuestas concisas.
-
----
-
-#### Caracteristicas
-
-- Crea cronologías:
-  Desarrolla materiales de estudio claros y concisos a partir de información compleja.
-- Crea resumenes en audio:
-  Permite a los alumnos informarse de temas administrativos sin tener que leer
-
----
-
-#### Beneficios
-
-¿Cómo puede beneficiar a tu trabajo administrativo?
-
-- Ahorra tiempo: 
-  Automatiza tareas repetitivas como la creación de informes y la búsqueda de información.
-- Mejora la eficiencia: 
-  Organiza y analiza grandes cantidades de información de manera rápida y sencilla.
-- Facilita la colaboración: 
-  Comparte tus notebooks con otros miembros del equipo y trabaja en conjunto. 
-  Diferentes roles (administrador, lector)
-
----
-
-#### Casos de uso para el PTGAS
-
-- Creación de guías: 
-  Desarrolla guías concisas y fáciles de entender para estudiantes sobre trámites administrativos.
-- Gestión de documentación: 
-  Organiza y clasifica la documentación de manera eficiente, facilitando su búsqueda.
-- Atención al estudiante: 
-  Responde a las preguntas de los estudiantes de forma rápida y precisa, utilizando las preguntas frecuentes generadas por NotebookML.
-
----
-
-#### Ejemplo
-
-- Creación de un notebook personalizado sobre la convocatoria Erasmus para su uso por parte de los estudiantes
-- Permitira la consulta interactiva tanto de las gestiones necesarias para formalizar la solicitud como para conocer las plazas disponibles, los requisitos a cumplir por los solicitantes
-- Crearemos cronologias con los hitos mas importantes 
-- Crearemos un resumen de audio con una conversación entre dos personas para su distribución entre los alumnos mas perezosos 
-- Permite crear resumenes en cualquier idioma y que los alumnos que no conocen bien el idioma puedan hacer consultas 
-
----
-
-#### Creación de un notebook de la convocatoria Erasmus 25-26
-
-- Materiales:
-  https://sri.ua.es/es/movilidad/erasmus-ka131/2025-26/primer-plazo-de-solicitud.html
-
-- Añadiremos como fuente:
-  Bases: https://www.boua.ua.es/es/acuerdo/54461
-  Listado de plazas: https://www.boua.ua.es/Acuerdos/DescargarAnexoxId?idanexo=1050865&idacuerdo=54623&idioma=es
-  Baremo: https://www.boua.ua.es/Acuerdos/DescargarAnexoxId?idanexo=1042431&idacuerdo=54461&idioma=es
-
-
----
-
-- Preguntas:
-  Puedes convertir el calendario en ingles?
-  Plazas de GRAU EN ENGINYERIA MULTIMÈDIA en Alemania?
-  Y las plazas de GRAU EN ENGINYERIA MULTIMÈDIA en disponibles para los estudiantes que dispongan de un nivel B2 Alemán? 
-  En Alemania solo no, en cualquier pais
-  Si dispongo del titulo obligatorio de idioma para la plaza que solicito pero tambien de un nivel superior se me tiene en cuenta en el baremo?
-  Pero se tiene en cuenta todos los idiomas o solo uno ?
-  Puedo renunciar a la plaza que me asignan?
- 
+## Ejemplos de consultas
+1. Traducción de cronología al inglés
+2. ¿Existen plazas de traducción e interpretación con requisito de idioma alemán B1?
+3. ¿Se valora en el baremo un nivel de idioma superior al solicitado?
+4. ¿Cual es el proceso de renuncia de plaza?

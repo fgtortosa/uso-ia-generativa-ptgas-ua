@@ -72,7 +72,8 @@ El modelo permite el uso de texto, imágenes, audio, etc. No funciona igual de b
 ### Mistral.ai
 - Modelo de Mistral (único modelo europeo)
 - Funciona bastante bien en multimodalidad. Buena capacidad para realizar traducciones entre idiomas europeos
-- Hay que registrarse en [https://mistral.ai](https://chatgpt.com)
+- Hay que registrarse en [https://chat.mistral.ai/](https://chat.mistral.ai/)
+)
 
 ---
 
@@ -102,9 +103,9 @@ Creación de una página web con la noticia de un evento que va a tener lugar en
 
 ----
 
-1. Registrarnos o loguearnos en chatgpt: [https://chatgpt.com]([https://chatgpt.com])
-2. Descargar el documento de: [https://web.ua.es/es/estudios-geopolitica/documentos/programa-iii-geopolitica-2024.pdf](https://web.ua.es/es/estudios-geopolitica/documentos/programa-iii-geopolitica-2024.pdf)
-3. Subir el documento en pdf a la herramienta (utilizando el icono del clip)
+1. Registrarnos o loguearnos en mistral: [https://chat.mistral.ai/](https://chat.mistral.ai/)
+2. Descargar el documento de: [https://dagrygf.ua.es/es/documentos/2024-seminario-ot-la-region-y-la-ciudad/la-region-y-la-ciudad-seminario-ot-2024.jpg](https://dagrygf.ua.es/es/documentos/2024-seminario-ot-la-region-y-la-ciudad/la-region-y-la-ciudad-seminario-ot-2024.jpg)
+3. Subir la imagen a la herramienta, utilizando el icono del clip que hay en la parte derecha
 
 ---
 
@@ -114,15 +115,31 @@ Prompt: *Transcribe el contenido del documento*
 
 ---
 
-Queremos **recuperar solo una parte de la información**. Utilizamos las indicaciones para ello
+El resultado corresponde a la transcripción de los textos que contiene el cartel en el mismo orden en que aparecen:
+- Lugar y aula
+- Día y hora de la primera charla
+- Nombre de la charla
+- Persona que da la charla
+- Cargo
+- Titulo del seminario
+- Descripción de la imagen
+- Universidad y Departamento
+- Organizadores
+
+---
+
+
+Queremos **transformar la información** para que tenga un orden adecuado al uso que queremos darle. Utilizamos las indicaciones para ello
 
 Prompt: *Necesitamos la siguiente información del documento para realizar un resumen: tipo de evento, nombre, lugar donde se realizarán las charlas del evento, organización, coordinación y programa, incluyendo si es posible el nombre de la ponencia, la fecha y hora, y el nombre del ponente*
+
+Como vemos ha transformado la información, dandole sentido en base a la indicación que le hemos dado
 
 ---
 
 Queremos **realizar un resumen del evento** que incorporaremos en la propia página web
 
-Prompt: *Por favor, realiza un resumen de un párrafo del evento, indicando los temas de los que trata, a modo de resumen de la página*
+Prompt: *Por favor, realiza un resumen de un párrafo del evento, indicando los temas de los que trata, a modo de resumen de la página*. El resumen lo incorporaremos al final del documento anterior
 
 ---
 
@@ -130,29 +147,38 @@ Vamos a **convertir toda la información anterior en html** para poder insertarl
 
 Prompt: *Ahora, utilizando la información anterior que me has generado crea un documento html  (incluye la información estructurada del evento y el resumen del mismo que has elaborado anteriormente). Deseamos crear una pagina web con el evento, pero no que nos escriba una pagina completa en html, sino solo el interior de ella, con párrafos, y con estilos básicos, como negrita, cursiva etc.*
 
+Si nos muestra la pagina completa se lo volvemos a pedir de nuevo, pero con mas claridad
+
+Prompt: *Por favor, necesito solo el contenido, no la pagina web completa, no pongas clases*
+
 ---
 
-Vamos a utilizar la **herramienta de búsqueda** de ChatGPT para buscar información de los ponentes
+Vamos a utilizar la **herramienta de búsqueda** para buscar información de los ponentes
 
 Prompt: *Por favor, busca la información de los ponentes para añadir a la pagina web*
 
 ----
 
-Revisamos la información y le pedimos que la transforme a html para incorporarla en la página web
+Revisamos la información y le pedimos que la transforme a html *para incorporarla en la página web*
 
 Prompt: *Convierte esta información en html e incorporala en el contenido anterior de la pagina html en un apartado final llamado ponentes*
 
+Ajustamos la salida a nuestras necesidades:
+
+Prompt: *Quita los textos de afiliación y de informacion adicional y quita el texto ponencia. Pon solo el nombre de la ponencia, y debajo pon el ponente, con su cargo y la informacion adicional*
+
+
+Verificamos la respuesta y la subimos a Vuala
+
 -----
 
-Ponemos intentar **obtener alguna imagen de los ponentes**, vamos a buscarla
+Ponemos intentar **obtener alguna imagen de los ponentes**, vamos a buscarla usando Perplexity.ai en [https://www.perplexity.ai](https://www.perplexity.ai) o en [chatgtp.com](chatgtp.com)
 
-Prompt: *Existe alguna imagen pública de los ponentes para incorporarla a la página web?*
-
-----
+Prompt: *Busca imágenes de Nacho Díez Torrijos. Dpto. de Urbanismo, Universitat Politècnica de València*
 
 Esta operativa es idéntica tanto para chatgpt, como para mistral y gemini, que poseen acceso a internet
 
----
+----
 
 ## Ejemplo práctico 
 
@@ -180,62 +206,3 @@ Afino: Necesito una imagen que debe corresponder a una ciudad mediterránea, con
 ---
 
 ![Ciudad mediterránea](imagen-bing.jpg)
-
----
-
-### Ejemplo práctico : 
-
-Uso de Perplexity.ai para hacer búsquedas
-[https://perplexity.ai](https://perplexity.ai)
-
-#### Prompt:
-
-Por favor, necesito información sobre Nacho Díez Torrijos, del Departamento de Urbanismo de la Universitat Politècnica de València
-
----
-
-#### Resultado:
-
-Ignacio Díez Torrijos, también conocido como Nacho Díez Torrijos, es un destacado profesional en el campo del urbanismo y la arquitectura del paisaje, vinculado a la Universitat Politècnica de València (UPV)
-
----
-
-### Otros usos 
-
-### Ejemplos Adicionales de Uso Administrativo
-
----
-
-#### Gestión de Correspondencia y Comunicaciones
-
-- Redacción de comunicados oficiales
-- Generación de respuestas tipo para consultas frecuentes
-- Traducción de documentos
-- Corrección y mejora de textos administrativos
-
-----
-
-#### Procesamiento de Documentos
-
-- Extracción de información de formularios
-- Resumen de documentos extensos
-- Clasificación y etiquetado de documentación
-- Generación de índices y metadatos
-
----
-
-#### Planificación y Organización
-
-- Creación de calendarios de eventos
-- Generación de informes de actividades
-- Borradores de actas de reuniones
-- Planificación de tareas y gestión de proyectos
-
----
-
-#### Atención al Público
-
-- Generación de guiones para atención de consultas
-- Creación de FAQ personalizadas
-- Apoyo en la redacción de respuestas a solicitudes
-
