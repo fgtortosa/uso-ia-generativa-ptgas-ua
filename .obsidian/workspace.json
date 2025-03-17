@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diapositivas/presentacion/contestar-preguntas.md",
+                "file": "diapositivas/presentacion/generar-contenido.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "contestar-preguntas"
+              "title": "generar-contenido"
             }
           }
         ]
@@ -164,12 +164,13 @@
   },
   "active": "769b19b3eb70d22a",
   "lastOpenFiles": [
+    "diapositivas/presentacion/generar-contenido.pdf",
+    "diapositivas/presentacion/contestar-preguntas.md",
     "diapositivas/presentacion/contestar-preguntas.pdf",
     "diapositivas/presentacion/generar-contenido.md",
     "imagenes/Ignacio-Torrijos.jpg",
     "documentos/Anexo-plazas-erasmusç.pdf",
     "diapositivas/presentacion/imagen-bing.jpg",
-    "diapositivas/presentacion/contestar-preguntas.md",
     "diapositivas/presentacion/presentacion.md",
     "diapositivas/presentacion/chat.md",
     "diapositivas/presentacion/presentacion.pdf",
@@ -208,7 +209,6 @@
     "imagenes/bing-interfaz.jpg",
     "Presentacion.pdf",
     "slides.css",
-    "respuestas",
-    "‎localhost:3000:Uso%Presentacion.pdf"
+    "respuestas"
   ]
 }
